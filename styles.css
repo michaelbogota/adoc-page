@@ -43,3 +43,36 @@ footer{
     width: 350px;
     float: left;
 }
+
+.link{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    height: 240px;
+    width: 240px;
+    top: 80px;
+    left: 80px;
+}
+
+.link img{
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    position: relative;
+}
+.link a{
+    width: 240px;
+    height: 240px;
+    color: white;
+    font-size: 30px;
+    display: block;
+    z-index: 1;
+}
+
+.parts4{
+    height: 750px;
+}
+
+.parts4 .parts{
+    margin-top: 250px;
+}
